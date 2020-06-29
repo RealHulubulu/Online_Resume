@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<div class="jumbotron text-center">
+  <div class="container">
+    <a href="/" class="lang-logo">
+      <img src="{% static 'profile_pic.png'%}">
+    </a>
+    <h1>Daniel Karasek</h1>
+	CITY, STATE, ZIP | PHONE NUMBER | <a href = "mailto:EMAIL@MAIL.COM" style="color:white"> EMAIL@MAIL.COM</a>
+    <p></p>
+    <a type="button" class="btn btn-lg btn-default" href="LINKEDIN LINK"><span class="glyphicon glyphicon-user"></span> My LinkedIn</a>
+    <a type="button" class="btn btn-lg btn-primary" href="GITHUB LINK"><span class="glyphicon glyphicon-file"></span> My GitHub</a>
+  </div>
+</div>
+<div class="container">
+  <hr>
+  <div class="row">
+    <div class="col-md-6">
+      <h3><span class="glyphicon glyphicon-info-sign"></span> Work Experience</h3>
+      <ul>
+        <li>JOB 1</li>
+		<ul>
+			<li>BULLET POINT
+			<li>BULLET POINT
+			<li>BULLET POINT
+		</ul>
+		
+		<li>JOB 2</li>
+		<ul>
+			<li>BULLET POINT
+			<li>BULLET POINT
+			<li>BULLET POINT
+		</ul>
+		
+		<li>JOB 3</li>
+		<ul>
+			<li>BULLET POINT
+			<li>BULLET POINT
+			<li>BULLET POINT
+		</ul>
+		
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <h3><span class="glyphicon glyphicon-sign"></span> Publications</h3>
+      <ul>
+        <li>BULLET POINT</li>
+        <li>BULLET POINT</li>
+		<li>BULLET POINT</li>
+		
+      </ul>
+      <h3><span class="glyphicon glyphicon-education"></span> Education </h3>
+      <ul>
+        <li>DEGREE, COLLEGE, YEAR</li>
+      </ul>
+	  
+	  <h3><span class="glyphicon glyphicon-star"></span> Achievements </h3>
+      <ul>
+	  <div>
+        <li>BULLET POINT</li>
+        <li>BULLET POINT</li>
+		<li>BULLET POINT</li>
+	  </div>
+      </ul>
+    </div>
+  </div> <!-- row -->
+  <div>
+  <h3><span class="glyphicon glyphicon-hdd"></span> Technical Proficiency </h3>
+		<li>BULLET POINT</li>
+        <li>BULLET POINT</li>
+		<li>BULLET POINT</li>
+  </div>
+</div>
+<div class="container">
+<hr>
+<div class="alert alert-info text-center" role="alert">
+<p>This resume is a sample Python application deployed to Heroku.</p>
+    To deploy your own web app, and learn the fundamentals of the Heroku platform, head over to the <a href="https://devcenter.heroku.com/articles/getting-started-with-python" class="alert-link">Getting Started with Python on Heroku</a> tutorial.
+  </div>
+{% endblock %}
