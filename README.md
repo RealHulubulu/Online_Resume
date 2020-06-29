@@ -14,6 +14,8 @@ Make sure you have Python 3.7 [installed locally](http://install.python-guide.or
 ```sh
 $ git clone https://github.com/RealHulubulu/Online_Resume.git
 
+# modify the index.html and base.html files, add in your picture in the static folder
+
 $ python3 -m venv new_venv
 $ pip install -r requirements.txt
 
