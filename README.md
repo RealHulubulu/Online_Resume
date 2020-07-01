@@ -4,6 +4,8 @@ This is a barebones Django app, which can easily be deployed to Heroku. I've tak
 You have to input the correct resume data into the index.html file. To change the colors adjust the values in the base.html file. There is a database attached 
 to this app that just keeps track of when the site is visited.
 
+Here is my resume as an example. https://daniel-karasek-resume.herokuapp.com/
+
 This app is built using the [Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python) article - check it out. 
 The tutorial above will help if you get stuck trying to deploy your own app.
 
